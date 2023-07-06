@@ -4,41 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Modelo 3 - Semântica - </title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-    <div>   
+    <!-- HEADER -->
+    <header>   
         <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+            <figure>
+                <img src="assets/images/logo.png" width="200" alt="Logo da página Geek" title="Logo Geek"/>
+            </figure>
         </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+        <!-- MENU -->
+        <aside class="sidebar">
+            <h2>Séries de Sucesso Mundial</h2>
+            <nav>
+                <ul>
+                    <li><a href="stranger-things.html">Stranger Things</a></li>
+                    <li><a href="greys-anatomy.html">Grey's Anatomy</a></li>
+                    <li><a href="o-gambito-da-rainha.html">O Gambito da Rainha</a></li>
+                    <li><a href="friends.html">Friends</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- MAIN -->
+        <main>
+            <article>
+                <h1 id="titulo1">Tudo sobre Stranger Things</h1>
+                <p>Stranger Things é uma série de televisão via streaming estadunidense dos gêneros ficção científica, terror, suspense e drama adolescente, criada, escrita e dirigida pelos irmãos Matt e Ross Duffer para a plataforma Netflix. Os irmãos Duffer, Shawn Levy e Dan Cohen são também os produtores executivos. A série apresenta em seu elenco os nomes de Winona Ryder, David Harbour, Finn Wolfhard, Millie Bobby Brown, Gaten Matarazzo, Caleb McLaughlin, Noah Schnapp, Natalia Dyer, Charlie Heaton, Joe Keery, Cara Buono e Matthew Modine, enquanto Sadie Sink, Dacre Montgomery, Sean Astin, Paul Reiser, Maya Hawke, Priah Ferguson e Brett Gelman foram incluídos no elenco em temporadas posteriores.</p>
+                <figure>
+                    <img width="95%" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png" alt="Imagem da Capa da Série Stranger Things" title="Série Stranger Things" />
+                    <figcaption>Série Stranger Things</figcaption>
+                </figure>
 
-        <div class="main">
-            
-        </div>
+                <h2 id="titulo2">Desenvolvimento</h2>
+                <p>Stranger Things foi criado por Matt e Ross Duffer, conhecidos profissionalmente como The Duffer Brothers ("os irmãos Duffer"). Os dois terminaram de escrever e produzir seu filme de 2015 Hidden, que eles tentaram imitar no estilo de produções feitas por M. Night Shyamalan, no entanto, devido a mudanças na Warner Bros., sua distribuidora, o filme não teve um grande lançamento e os Duffers não tinham certeza de seu futuro. Para sua surpresa, o produtor de televisão Donald De Line os abordou, impressionado com o roteiro de Hidden, e lhes ofereceu a oportunidade de trabalhar em episódios de Wayward Pines ao lado de Shyamalan. Os irmãos foram orientados por Shyamalan durante a produção do episódio, então, quando terminaram, sentiram que estavam prontos para produzir sua própria série de televisão.</p>
 
-        <div class="anchors">
+                <h2 id="titulo3">Filmagens</h2>
+                <p>Os irmãos desejavam filmar a série ao redor da área de Long Island para combinar com o conceito inicial de Montauk. No entanto, com as filmagens programadas para novembro de 2015, foi difícil filmar em Long Island no tempo frio, e a produção começou a explorar locais em torno da área de Atlanta, Geórgia. Os irmãos, que cresceram na Carolina do Norte, encontraram muitos lugares que os lembravam de suas próprias infâncias naquela área, e sentiram que a área funcionaria bem com a mudança de narrativa para a cidade fictícia de Hawkins, Indiana.</p>
+                
+                <h2 id="titulo4">Audiência</h2>
+                <p>Como a Netflix não revela os números de audiência dos inscritos para nenhuma de suas séries originais, Symphony Technology Group compilou os datos da temporada com base nas pessoas que usam software em seus telefones móveis que medem a visualização de televisão ao detectar o som de um programa. De acordo com a Symphony, nos primeiros 35 dias de lançamento, Stranger Things teve uma média de audiência de cerca de 14,07 milhões de adultos entre 18 e 49 anos nos Estados Unidos. Isso a tornou a primeira temporada da série como a terceira mais assistida do conteúdo original da Netflix nos Estados Unidos na época, atrás da primeira temporada de Fuller House e da quarta temporada de Orange Is the New Black.</p>
+                
+                <h2 style="text-align: center;" id="titulo5">Trailer</h2>
+                <div class="wrapper-i">
+                    <iframe src="https://www.youtube.com/embed/mnd7sFt5c3A" title="Trailer da Série Stranger Things Temporada 1" alt="Trailer da Série Stranger Things Temporada 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
+                </div>
+               
+            </article>
+        </main>
+        <!-- ASIDE -->
+        <aside class="anchors">
             <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
+                <ul>
+                    <li><a href="#titulo1">Tudo sobre</a></li>
+                    <li><a href="#titulo2">Desenvolvimento</a></li>
+                    <li><a href="#titulo3">Filmagens</a></li>
+                    <li><a href="#titulo4">Audiência</a></li>
+                    <li><a href="#titulo5">Trailer</a></li>
+                </ul>
+        </aside>
     </div>
 
-    <div class="footer">
-
-    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <small>
+            Geek 2023 - Desenvolvido por Felipe Iure
+        </small>
+    </footer>
 </body>
 </html>
